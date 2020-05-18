@@ -1,20 +1,20 @@
 <template>
   <div class="pill">
-    <span class="name">{{name}}</span>
-    <span class="amount">{{amount}}</span>
+    <span class="name">{{ name }}</span>
+    <span class="amount">{{ amount }}</span>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["name", "amount"]
+  props: ['name', 'amount'],
 };
 </script>
 
 <style scoped>
 .pill {
   margin: 10px;
-  background-color: #a52a2a;
+  background-color: #137cc7;
   color: #fff;
   height: 55px;
   border-radius: 30px;
@@ -37,7 +37,7 @@ export default {
   border-radius: 18px;
 
   background-color: #fff;
-  color: #a52a2a;
+  color: #137cc7;
 
   font-size: 14px;
 
